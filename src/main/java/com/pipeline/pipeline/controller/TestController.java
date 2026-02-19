@@ -10,4 +10,8 @@ public class TestController {
     public String test() {
         return "Application is working!";
     }
+    @GetMapping("/test2")
+    public String test2(){
+        return "Application is runnig success fully";
+    }
 }
